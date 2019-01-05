@@ -49,5 +49,33 @@ echo "###########################################"
 echo ""
 
 echo "###########################################"
+echo "		Installing Network		 "
+echo "###########################################"
+
+sudo pacman -S --noconfirm --needed avahi
+sudo systemctl enable avahi-daemon.service
+sudo systemctl start avahi-daemon.service
+
+echo "###########################################"
+echo "		Network Installed		 "
+echo "###########################################"
+
+echo ""
+
+echo "###########################################"
+echo "		Installing TLP			 "
+echo "###########################################"
+
+sudo pacman -S --noconfirm --needed tlp
+sudo systemctl enable tlp.service
+sudo systemctl start tlp-slee[.service
+
+echo "###########################################"
+echo "		TLP Installed			 "
+echo "###########################################"
+
+echo ""
+
+echo "###########################################"
 echo "		Utilities Installed		 "
 echo "###########################################"
