@@ -1,0 +1,6 @@
+[colors]
+background=rgba(0,0,0,0.6)
+foreground=#DDDDDD
+
+[options]
+font=Monospace 9
